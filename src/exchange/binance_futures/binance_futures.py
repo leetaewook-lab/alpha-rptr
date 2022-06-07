@@ -31,7 +31,7 @@ class BinanceFutures:
     # Order Update Log
     order_update_log = True  
     # OHLCV length
-    ohlcv_len = 100    
+    ohlcv_len = 10000
     # Round decimals
     round_decimals = 2   
 
@@ -138,7 +138,7 @@ class BinanceFutures:
         get leverage
         :return:  
         """         
-        return 20
+        return 125
 
     def get_lot(self, round_decimals=3):
         """        
