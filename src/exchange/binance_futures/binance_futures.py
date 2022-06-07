@@ -31,7 +31,7 @@ class BinanceFutures:
     # Order Update Log
     order_update_log = True  
     # OHLCV length
-    ohlcv_len = 10000
+    ohlcv_len = 100
     # Round decimals
     round_decimals = 2   
 
