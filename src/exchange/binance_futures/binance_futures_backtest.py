@@ -24,7 +24,7 @@ class BinanceFuturesBackTest(BinanceFuturesStub):
     # Check candles
     check_candles_flag = True
     # Number of days to download and test historical data 
-    days = 365 * 2
+    days = 120
     # Enable log output
     enable_trade_log = True
     # Start balance
